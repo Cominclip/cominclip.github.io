@@ -4,9 +4,10 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Xinchen Zhang</title>
   <meta name="author" content="Xinchen Zhang">
+  <meta name="description" content="Xinchen Zhang's academic homepage: research on multimodal large language models, reinforcement learning, and text-to-image generation.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://cominclip.github.io/">
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 
@@ -37,15 +38,15 @@
                     <a href="https://www.threads.net/@jonbarron">Threads</a> &nbsp;/&nbsp;
                     <a href="https://bsky.app/profile/jonbarron.bsky.social">Bluesky</a> &nbsp;/&nbsp;-->
                     <a href="images/WeChat.jpg">WeChat</a> &nbsp;/&nbsp;
-                    <a href="https://github.com/Cominclip">Github</a> &nbsp;/&nbsp;
+                    <a href="https://github.com/Cominclip">GitHub</a> &nbsp;/&nbsp;
                     <a href="https://scholar.google.com/citations?hl=zh-CN&user=cIKVaIAAAAAJ">Google Scholar</a>
                   </p>
                   <p style="text-align:justify">
-                    <font color="#FF8C00">I will graduate at 2027. Feel free to contact me via email or <a href="images/WeChat.jpg">WeChat</a> if you are recruiting! </font>
+                    <span class="notice">I will graduate in 2027. Feel free to contact me via email or <a href="images/WeChat.jpg">WeChat</a> if you are recruiting!</span>
                   </p>
                 </td>
                 <td style="padding:2.5%;width:31.5%;max-width:40%;vertical-align:top">
-                  <img style="width:110%;max-width:110%;margin-top:2.5em;border-radius:15px" alt="profile photo" src="images/photo2.png" class="hoverZoomLink">
+                  <img style="width:110%;max-width:110%;margin-top:2.5em;border-radius:15px" alt="Xinchen Zhang profile photo" src="images/photo2.png" class="hoverZoomLink" decoding="async" fetchpriority="high">
                 </td>
               </tr>
             </tbody>
@@ -57,13 +58,21 @@
                 <td style="padding:20px;width:100%;vertical-align:middle">
                   <heading>Research</heading>
                   <p style="text-align:justify">
-                    My current research focuses on Multimodal Large Language Models (MLLMs), specifically revolutionizing reinforcement learning for the alignment of unified models and continuously pushing the boundaries of their reasoning and generative ability to unlock full potential in complex scenarios, including <a href="https://arxiv.org/abs/2510.13804">OmniVerifier</a> (ICLR'26 Oral), <a href="https://arxiv.org/abs/2502.12148">HermesFlow</a> (NeurIPS'25), <a href="https://arxiv.org/abs/2505.15809">MMaDA</a> (NeurIPS'25), and <a href="https://arxiv.org/abs/2505.07062">Seed1.5-VL</a>.
+                    My current research focuses on post-training and reinforcement learning for Multimodal Large Language Models (MLLMs), with two primary directions:
                   </p>
+                  <ul>
+                    <li style="text-align:justify">
+                      <strong>Agentic Visual Coding:</strong> I develop post-training methods for multimodal agents to iteratively inspect, debug, and refine visual code by multi-turn self-improvement, contributing to <a href="https://arxiv.org/abs/2607.00248">Seed2.0</a> and <a href="https://seed.bytedance.com/en/seed2_1">Seed2.1</a>.
+                    </li>
+                    <li style="text-align:justify">
+                      <strong>Universal Visual Verifier:</strong> I work on building universal visual verifiers that provide scalable reward signals for multimodal reasoning and generation, while exploring the reward paradigms and upper limits of reinforcement learning. This direction contributes to <a href="https://arxiv.org/abs/2603.20633">Seed1.8</a> and <a href="https://arxiv.org/abs/2607.00248">Seed2.0</a>, with representative works including <a href="https://arxiv.org/abs/2510.13804">OmniVerifier</a> (ICLR'26 Oral) and <a href="https://arxiv.org/abs/2605.28805">OmniVerifier-M1</a> (ICML'26).
+                    </li>
+                  </ul>
                   <p style="text-align:justify">
-                    Previously, my research centered on text-to-image generation, with a particular emphasis on investigating the capabilities of diffusion models under complex and compositional prompts, including <a href="https://arxiv.org/abs/2410.07171">IterComp</a> (ICLR'25) and <a href="https://arxiv.org/abs/2402.12908">RealCompo</a> (NeurIPS'24).
+                    Previously, I focused on post-training of generative models, including joint understanding-generation reinforcement learning for unified models, such as <a href="https://arxiv.org/abs/2502.12148">HermesFlow</a> (NeurIPS'25) and <a href="https://arxiv.org/abs/2505.15809">MMaDA</a> (NeurIPS'25), as well as post-training of text-to-image models for complex compositional generation, including <a href="https://arxiv.org/abs/2410.07171">IterComp</a> (ICLR'25) and <a href="https://arxiv.org/abs/2402.12908">RealCompo</a> (NeurIPS'24).
                   </p>
                   <div style="text-align:center; margin-top:15px;">
-                    <img src="images/research.png" alt="Research Overview" style="max-width:100%; height:auto; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);">
+                    <img src="images/research.png" alt="Research overview" style="max-width:100%; height:auto; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);" loading="lazy" decoding="async">
                   </div>
                 </td>
               </tr>
@@ -76,11 +85,13 @@
                 <td style="padding:20px;width:100%;vertical-align:middle">
                   <heading>News</heading>
                   <ul>
+                    <li>[Jun. 2026] We released <a href="https://seed.bytedance.com/en/seed2"><strong>Seed2.1</strong></a>, where I worked on post-training for agentic visual coding.</li>
                     <li>[May. 2026] <a href="https://arxiv.org/abs/2605.28805"><strong>OmniVerifier-M1</strong></a> is accepted by <strong>ICML 2026</strong>.</li>
-                    <li>[May. 2026] I propose <a href="https://arxiv.org/abs/2605.28805"><strong>OmniVerifier-M1</strong></a>, advancing multimodal verifier with symbolic meta-verification.
-                    <li>[Jan. 2026] <a href="https://arxiv.org/abs/2510.13804"><strong>OmniVerifier</strong></a> is accepted by <strong>ICLR 2026 <font color="#D04E47">(Oral Paper, Top 1%)</font></strong>.</li>
+                    <li>[May. 2026] I propose <a href="https://arxiv.org/abs/2605.28805"><strong>OmniVerifier-M1</strong></a>, advancing multimodal verifier with symbolic meta-verification.</li>
+                    <li>[Feb. 2026] We release <a href="https://arxiv.org/abs/2607.00248"><strong>Seed2.0</strong></a>, a generalist agentic model for real-world complexity.</li>
+                    <li>[Jan. 2026] <a href="https://arxiv.org/abs/2510.13804"><strong>OmniVerifier</strong></a> is accepted by <strong>ICLR 2026 <span class="highlight-red">(Oral Paper, Top 1%)</span></strong>.</li>
                     <li>[Dec. 2025] We release <a href="https://arxiv.org/abs/2603.20633"><strong>Seed1.8</strong></a>, a generalized agentic model in real-world scenarios.</li>
-                    <li>[Oct. 2025] I propose <a href="https://arxiv.org/abs/2510.13804"><a href="https://arxiv.org/abs/2510.13804"><strong>OmniVerifier</strong></a>, a universal verifier for generalist multimodal foundation models.</li>
+                    <li>[Oct. 2025] I propose <a href="https://arxiv.org/abs/2510.13804"><strong>OmniVerifier</strong></a>, a universal verifier for generalist multimodal foundation models.</li>
                     <li>[Sep. 2025] <strong>Three</strong> papers about reinforcement learning and MLLMs are accepted by <strong>NeurIPS 2025</strong>, including <a href="https://arxiv.org/abs/2502.12148"><strong>HermesFlow</strong></a>, <a href="https://arxiv.org/abs/2505.15809"><strong>MMaDA</strong></a>, and <a href="https://arxiv.org/abs/2506.14907"><strong>PeRL</strong></a>.</li>
                     <li>[Aug. 2025] <a href="https://github.com/Cominclip/RPF-Net"><strong>RPF-Net</strong></a> is accepted by <strong>Pattern Recognition</strong>.</li>
                     <li>[May. 2025] We release <a href="https://github.com/ByteDance-Seed/Seed1.5-VL"><strong>Seed1.5-VL</strong></a>, a series of state-of-the-art vision-language models.</li>
@@ -91,7 +102,7 @@
                     <li>[Sep. 2024] <a href="https://arxiv.org/abs/2402.12908"><strong>RealCompo</strong></a> is accepted by <strong>NeurIPS 2024</strong>.</li>
                     <li>[Feb. 2024] I propose <strong><a href="https://arxiv.org/abs/2402.12908">RealCompo</a></strong>, achieving the balance of compositionality and realism in controllable text-to-image generation.</li>
                     <li>[Sep. 2023] Qualified to be exempted from Tsinghua University for postgraduate studies.</li>
-                    <li>[May. 2023] Check out our recent work, RPF-Net.</li>
+                    <li>[May. 2023] Check out our recent work, <strong><a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320325009458">RPF-Net</a></strong>.</li>
                   </ul>
                 </td>
               </tr>
@@ -122,7 +133,7 @@
           </style>
 
           <!-- Technical Reports -->
-          <table id="publications" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <table id="technical-reports" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr>
                 <td style="padding:20px;width:100%;vertical-align:middle">
@@ -137,7 +148,7 @@
 
               <tr>
                 <td style="padding-left:20px;padding-right:20px;padding-top:10px;width:10%;vertical-align:top">
-                  <img style="width:100%;max-width:100%" alt="profile photo" src="images/seed2.1.png" class="hoverZoomLink">
+                  <img style="width:100%;max-width:100%" alt="Seed2.1 model card thumbnail" src="images/seed2.1.png" class="hoverZoomLink" loading="lazy" decoding="async">
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:top;line-height:2em;padding-top:0px">
                   <a href="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2.1/Seed2_1_Model_Card.pdf">
@@ -153,7 +164,7 @@
               </tr>
               <tr>
                 <td style="padding-left:20px;padding-right:20px;padding-top:10px;width:10%;vertical-align:top">
-                  <img style="width:100%;max-width:100%" alt="profile photo" src="images/seed2.0.png" class="hoverZoomLink">
+                  <img style="width:100%;max-width:100%" alt="Seed2.0 model card thumbnail" src="images/seed2.0.png" class="hoverZoomLink" loading="lazy" decoding="async">
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:top;line-height:2em;padding-top:0px">
                   <a href="https://arxiv.org/abs/2607.00248">
@@ -170,7 +181,7 @@
 
               <tr>
                 <td style="padding-left:20px;padding-right:20px;padding-top:0px;width:10%;vertical-align:top">
-                  <img style="width:100%;max-width:100%" alt="profile photo" src="images/seed1.8.jpg" class="hoverZoomLink">
+                  <img style="width:100%;max-width:100%" alt="Seed1.8 model card thumbnail" src="images/seed1.8.jpg" class="hoverZoomLink" loading="lazy" decoding="async">
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:top;line-height:2em;padding-top:0px">
                   <a href="https://arxiv.org/abs/2603.20633">
@@ -187,7 +198,7 @@
 
               <tr>
                 <td style="padding-left:20px;padding-right:20px;padding-top:10px;width:30%;vertical-align:top">
-                  <img style="width:100%;max-width:100%" alt="profile photo" src="images/seed1.5vl-2.png" class="hoverZoomLink">
+                  <img style="width:100%;max-width:100%" alt="Seed1.5-VL technical report thumbnail" src="images/seed1.5vl-2.png" class="hoverZoomLink" loading="lazy" decoding="async">
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:top;line-height:2em;padding-top:0px">
                   <a href="https://arxiv.org/abs/2505.07062">
@@ -201,6 +212,8 @@
                   <p></p>
                 </td>
               </tr>
+            </tbody>
+          </table>
 
           <!-- Publications -->
           <table id="publications" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -220,7 +233,7 @@
             <tbody>
             <tr>
                 <td style="padding-left:20px;padding-right:20px;padding-top:10px;width:30%;vertical-align:top">
-                  <img style="width:100%;max-width:100%" alt="profile photo" src="images/omniverifier-m1.png" class="hoverZoomLink">
+                  <img style="width:100%;max-width:100%" alt="OmniVerifier-M1 paper thumbnail" src="images/omniverifier-m1.png" class="hoverZoomLink" loading="lazy" decoding="async">
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:top;line-height:1.8em;padding-top:0px">
                   <a href="https://arxiv.org/abs/2605.28805">
@@ -240,7 +253,7 @@
               
               <tr>
                 <td style="padding-left:20px;padding-right:20px;padding-top:10px;width:30%;vertical-align:top">
-                  <img style="width:100%;max-width:100%" alt="profile photo" src="images/omniverifier_update.png" class="hoverZoomLink">
+                  <img style="width:100%;max-width:100%" alt="OmniVerifier paper thumbnail" src="images/omniverifier_update.png" class="hoverZoomLink" loading="lazy" decoding="async">
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:top;line-height:1.8em;padding-top:0px">
                   <a href="https://arxiv.org/abs/2510.13804">
@@ -249,7 +262,7 @@
                   <br>
                   <strong>Xinchen Zhang</strong>, Xiaoying Zhang, Youbin Wu, Yanbin Cao, Renrui Zhang, Ruihang Chu, Ling Yang, Yujiu Yang, Guang Shi
                   <br>
-                  <em><strong>ICLR, 2026 <font color="#D04E47">(Oral Paper, Top 1%)</font></strong></em> 
+                  <em><strong>ICLR, 2026 <span class="highlight-red">(Oral Paper, Top 1%)</span></strong></em> 
                   <br>
                   <a href="https://arxiv.org/abs/2510.13804">Preprint</a> / <a href="https://github.com/Cominclip/OmniVerifier">Code</a> / <a href="https://huggingface.co/comin/OmniVerifier-7B">Checkpoint</a> / <a href="https://huggingface.co/datasets/comin/ViVerBench">Benchmark</a>
                   <br>
@@ -259,7 +272,7 @@
 
               <tr>
                 <td style="padding-left:20px;padding-right:20px;padding-top:10px;width:30%;vertical-align:top">
-                  <img style="width:100%;max-width:100%" alt="profile photo" src="images/hermesflow.png" class="hoverZoomLink">
+                  <img style="width:100%;max-width:100%" alt="HermesFlow paper thumbnail" src="images/hermesflow.png" class="hoverZoomLink" loading="lazy" decoding="async">
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:top;line-height:1.8em;padding-top:0px">
                   <a href="https://arxiv.org/abs/2502.12148">
@@ -278,7 +291,7 @@
 
               <tr>
                 <td style="padding-left:20px;padding-right:20px;padding-top:10px;width:30%;vertical-align:top">
-                  <img style="width:100%;max-width:100%" alt="profile photo" src="images/IterComp.png" class="hoverZoomLink">
+                  <img style="width:100%;max-width:100%" alt="IterComp paper thumbnail" src="images/IterComp.png" class="hoverZoomLink" loading="lazy" decoding="async">
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:top;line-height:1.8em;padding-top:0px">
                   <a href="https://arxiv.org/abs/2410.07171">
@@ -289,7 +302,7 @@
                   <br>
                   <em><strong>ICLR</strong> 2025</em>
                   <br>
-                  <a href="https://arxiv.org/abs/2410.07171">Preprint</a> / <a href="https://github.com/YangLing0818/IterComp">Code</a> / <a href="https://huggingface.co/comin/IterComp">Checkpoints </a><font color="#D04E47">(Over 3.3W downloads)</font>
+                  <a href="https://arxiv.org/abs/2410.07171">Preprint</a> / <a href="https://github.com/YangLing0818/IterComp">Code</a> / <a href="https://huggingface.co/comin/IterComp">Checkpoints </a><span class="highlight-red">(Over 3.3W downloads)</span>
                   <br>
                   <p></p>
                 </td>
@@ -297,7 +310,7 @@
 
               <tr>
                 <td style="padding-left:20px;padding-right:20px;padding-top:10px;width:30%;vertical-align:top">
-                  <img style="width:100%;max-width:100%" alt="profile photo" src="images/RealCompo.png" class="hoverZoomLink">
+                  <img style="width:100%;max-width:100%" alt="RealCompo paper thumbnail" src="images/RealCompo.png" class="hoverZoomLink" loading="lazy" decoding="async">
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:top;line-height:1.8em;padding-top:0px">
                   <a href="https://arxiv.org/abs/2402.12908">
@@ -318,7 +331,7 @@
 
               <tr>
                 <td style="padding-left:20px;padding-right:20px;padding-top:10px;width:30%;vertical-align:top">
-                  <img style="width:100%;max-width:100%" alt="profile photo" src="images/mmada.png" class="hoverZoomLink">
+                  <img style="width:100%;max-width:100%" alt="MMaDA paper thumbnail" src="images/mmada.png" class="hoverZoomLink" loading="lazy" decoding="async">
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:top;line-height:1.8em;padding-top:0px">
                   <a href="https://arxiv.org/abs/2505.15809">
@@ -336,7 +349,7 @@
               </tr>
               <tr>
                 <td style="padding-left:20px;padding-right:20px;padding-top:10px;width:30%;vertical-align:top">
-                  <img style="width:100%;max-width:100%" alt="profile photo" src="images/HEAR.png" class="hoverZoomLink">
+                  <img style="width:100%;max-width:100%" alt="HEAR paper thumbnail" src="images/HEAR.png" class="hoverZoomLink" loading="lazy" decoding="async">
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:top;line-height:1.8em;padding-top:0px">
                   <papertitle>HEAR: High-frequency Enhanced Autoregressive Modeling for Identity-Preserving Image Generation</papertitle>
@@ -351,7 +364,7 @@
 
               <tr>
                 <td style="padding-left:20px;padding-right:20px;padding-top:10px;width:30%;vertical-align:top">
-                  <img style="width:100%;max-width:100%" alt="profile photo" src="images/SparseAR.png" class="hoverZoomLink">
+                  <img style="width:100%;max-width:100%" alt="SparseAR paper thumbnail" src="images/SparseAR.png" class="hoverZoomLink" loading="lazy" decoding="async">
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:top;line-height:1.8em;padding-top:0px">
                   <papertitle>SparseAR: Not All Visual Tokens Are Crucial in Autoregressive Image Model Training</papertitle>
@@ -366,10 +379,10 @@
 
               <tr>
                 <td style="padding-left:20px;padding-right:20px;padding-top:10px;width:30%;vertical-align:top">
-                  <img style="width:100%;max-width:100%" alt="profile photo" src="images/perl.png" class="hoverZoomLink">
+                  <img style="width:100%;max-width:100%" alt="PeRL paper thumbnail" src="images/perl.png" class="hoverZoomLink" loading="lazy" decoding="async">
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:top;line-height:1.8em;padding-top:0px">
-                  <a href="https://arxiv.org/abs/2505.15809">
+                  <a href="https://arxiv.org/abs/2506.14907">
                     <papertitle>PeRL: Permutation-Enhanced Reinforcement Learning for Interleaved Vision-Language Reasoning</papertitle>
                   </a>
                   <br>
@@ -385,7 +398,7 @@
 
               <tr>
                 <td style="padding-left:20px;padding-right:20px;padding-top:10px;width:30%;vertical-align:top">
-                  <img style="width:100%;max-width:100%" alt="profile photo" src="images/diffusion-sharpen.png" class="hoverZoomLink">
+                  <img style="width:100%;max-width:100%" alt="Diffusion-Sharpening paper thumbnail" src="images/diffusion-sharpen.png" class="hoverZoomLink" loading="lazy" decoding="async">
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:top;line-height:1.8em;padding-top:0px">
                   <a href="https://arxiv.org/abs/2502.12146">
@@ -400,7 +413,7 @@
                 </td>
               </tr>
 
-              <!-- <tr>
+              <tr>
                 <td style="padding-left:20px;padding-right:20px;padding-top:10px;width:30%;vertical-align:top">
                   <img style="width:80%;max-width:100%;display: block; margin: auto;" alt="profile photo" src="images/geocon.png" class="hoverZoomLink">
                 </td>
@@ -413,11 +426,11 @@
                   <br>
                   <p></p>
                 </td>
-              </tr> -->
+              </tr>
 
               <tr>
                 <td style="padding-left:20px;padding-right:20px;padding-top:10px;width:30%;vertical-align:top">
-                  <img style="width:100%;max-width:100%" alt="profile photo" src="images/RPF.png" class="hoverZoomLink">
+                  <img style="width:100%;max-width:100%" alt="RPF-Net paper thumbnail" src="images/RPF.png" class="hoverZoomLink" loading="lazy" decoding="async">
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:top;line-height:1.8em;padding-top:0px">
                   <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320325009458">
@@ -448,10 +461,10 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr>
-                <td style="padding:20px;width:30%;vertical-align:center;text-align:center">
-                  <img style="width:50%;max-width:70%" alt="THU logo" src="images/thu.png" class="hoverZoomLink">
+                <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+                  <img style="width:50%;max-width:70%" alt="Tsinghua University logo" src="images/thu.png" class="hoverZoomLink" loading="lazy" decoding="async">
                 </td>
-                <td style="padding:20px;width:70%;vertical-align:center;line-height:1.8em">
+                <td style="padding:20px;width:70%;vertical-align:middle;line-height:1.8em">
                   <a href="https://www.tsinghua.edu.cn/en/">
                     <papertitle>Tsinghua University</papertitle>
                   </a>
@@ -467,10 +480,10 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr>
-                <td style="padding:20px;width:30%;vertical-align:center;text-align:center">
-                  <img style="width:50%;max-width:70%" alt="XDU logo" src="images/xdu.png" class="hoverZoomLink">
+                <td style="padding:20px;width:30%;vertical-align:middle;text-align:center">
+                  <img style="width:50%;max-width:70%" alt="Xidian University logo" src="images/xdu.png" class="hoverZoomLink" loading="lazy" decoding="async">
                 </td>
-                <td style="padding:20px;width:70%;vertical-align:center;line-height:1.8em">
+                <td style="padding:20px;width:70%;vertical-align:middle;line-height:1.8em">
                   <a href="https://en.xidian.edu.cn/">
                     <papertitle>Xidian University</papertitle>
                   </a>
@@ -484,7 +497,7 @@
           </table>
 
           <!-- Internships -->
-          <table id="education" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <table id="experience" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr>
                 <td style="padding:20px;width:100%;vertical-align:middle">
@@ -497,14 +510,14 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr>
-                <td style="padding:2px;width:30%;vertical-align:center;text-align:center">
-                  <img style="width:100%;max-width:100%" alt="bytedance logo" src="images/seed.png" class="hoverZoomLink">
+                <td style="padding:2px;width:30%;vertical-align:middle;text-align:center">
+                  <img style="width:100%;max-width:100%" alt="ByteDance Seed logo" src="images/seed.png" class="hoverZoomLink" loading="lazy" decoding="async">
                 </td>
-                <td style="padding:20px;width:70%;vertical-align:center;line-height:1.8em">
+                <td style="padding:20px;width:70%;vertical-align:middle;line-height:1.8em">
                   <a href="https://team.doubao.com/en/direction/multimodal">
                     <papertitle>ByteDance Seed</papertitle>
                     <br>
-                    <strong>Multimodel Interaction and World Model Team</strong>
+                    <strong>Multimodal Interaction and World Model Team</strong>
                   </a>
                   <br>
                   Research Intern (Feb. 2025 - Present)
@@ -545,7 +558,7 @@
           </table>
 
           <!-- Talks -->
-          <table id="honors" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <table id="talks" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr>
                 <td style="padding:20px;width:100%;vertical-align:middle">
