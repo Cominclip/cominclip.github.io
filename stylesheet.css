@@ -42,3 +42,11 @@ highlight {
   /* color: #305b81; */
   color: #176a9d;
 }
+
+.notice {
+  color: #ff8c00;
+}
+
+.highlight-red {
+  color: #d04e47;
+}
