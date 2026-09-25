@@ -65,7 +65,7 @@
                       <strong>Agentic Visual Coding:</strong> I develop post-training methods for multimodal agents to iteratively inspect, debug, and refine visual code by multi-turn self-improvement, contributing to <a href="https://arxiv.org/abs/2607.00248">Seed2.0</a> and <a href="https://seed.bytedance.com/en/seed2_1">Seed2.1</a>.
                     </li>
                     <li style="text-align:justify">
-                      <strong>Universal Visual Verifier:</strong> I work on building universal visual verifiers that provide scalable reward signals for multimodal reasoning and generation, while exploring the reward paradigms and upper limits of reinforcement learning. This direction contributes to <a href="https://arxiv.org/abs/2603.20633">Seed1.8</a> and <a href="https://arxiv.org/abs/2607.00248">Seed2.0</a>, with representative works including <a href="https://arxiv.org/abs/2510.13804">OmniVerifier</a> (ICLR'26 Oral) and <a href="https://arxiv.org/abs/2605.28805">OmniVerifier-M1</a> (ICML'26).
+                      <strong>Universal Visual Verifier:</strong> I work on building universal visual verifiers that provide scalable reward signals for multimodal reasoning and generation, while exploring the reward paradigms and upper limits of reinforcement learning. This direction contributes to <a href="https://arxiv.org/abs/2603.20633">Seed1.8</a> and <a href="https://arxiv.org/abs/2607.00248">Seed2.0</a>, with representative works like <a href="https://arxiv.org/abs/2510.13804">OmniVerifier</a> (ICLR'26 Oral), <a href="https://arxiv.org/abs/2605.28805">OmniVerifier-M1</a> (ICML'26) and OmniVerifier-C1 (NeurIPS'26).
                     </li>
                   </ul>
                   <p style="text-align:justify">
@@ -85,6 +85,7 @@
                 <td style="padding:20px;width:100%;vertical-align:middle">
                   <heading>News</heading>
                   <ul>
+                    <li>[Sep. 2026] <strong>OmniVerifier-C1</strong> is accepted by <strong>NeurIPS 2026</strong>.</li>
                     <li>[Jun. 2026] We released <a href="https://seed.bytedance.com/en/seed2"><strong>Seed2.1</strong></a>, where I worked on post-training for agentic visual coding.</li>
                     <li>[May. 2026] <a href="https://arxiv.org/abs/2605.28805"><strong>OmniVerifier-M1</strong></a> is accepted by <strong>ICML 2026</strong>.</li>
                     <li>[May. 2026] I propose <a href="https://arxiv.org/abs/2605.28805"><strong>OmniVerifier-M1</strong></a>, advancing multimodal verifier with symbolic meta-verification.</li>
@@ -231,6 +232,25 @@
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto">
             <tbody>
+              <tr>
+                <td style="padding-left:20px;padding-right:20px;padding-top:10px;width:30%;vertical-align:top">
+                  <img style="width:100%;max-width:100%" alt="OmniVerifier paper thumbnail" src="images/omniverifier_update.png" class="hoverZoomLink" loading="lazy" decoding="async">
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:top;line-height:1.8em;padding-top:0px">
+                  <a href="https://arxiv.org/abs/2510.13804">
+                    <papertitle>Generative Universal Verifier as Multimodal Meta-Reasoner</papertitle>
+                  </a>
+                  <br>
+                  <strong>Xinchen Zhang</strong>, Xiaoying Zhang, Youbin Wu, Yanbin Cao, Renrui Zhang, Ruihang Chu, Ling Yang, Yujiu Yang, Guang Shi
+                  <br>
+                  <em><strong>ICLR, 2026 <span class="highlight-red">(Oral Paper, Top 1%)</span></strong></em> 
+                  <br>
+                  <a href="https://arxiv.org/abs/2510.13804">Preprint</a> / <a href="https://github.com/Cominclip/OmniVerifier">Code</a> / <a href="https://huggingface.co/comin/OmniVerifier-7B">Checkpoint</a> / <a href="https://huggingface.co/datasets/comin/ViVerBench">Benchmark</a>
+                  <br>
+                  <p></p>
+                </td>
+              </tr>
+
             <tr>
                 <td style="padding-left:20px;padding-right:20px;padding-top:10px;width:30%;vertical-align:top">
                   <img style="width:100%;max-width:100%" alt="OmniVerifier-M1 paper thumbnail" src="images/omniverifier-m1.png" class="hoverZoomLink" loading="lazy" decoding="async">
@@ -250,25 +270,23 @@
                 </td>
               </tr>
 
-              
               <tr>
                 <td style="padding-left:20px;padding-right:20px;padding-top:10px;width:30%;vertical-align:top">
-                  <img style="width:100%;max-width:100%" alt="OmniVerifier paper thumbnail" src="images/omniverifier_update.png" class="hoverZoomLink" loading="lazy" decoding="async">
+                  <img style="width:100%;max-width:100%" alt="OmniVerifier-M1 paper thumbnail" src="images/omniverifier_c1.png" class="hoverZoomLink" loading="lazy" decoding="async">
                 </td>
                 <td style="padding:20px;width:70%;vertical-align:top;line-height:1.8em;padding-top:0px">
-                  <a href="https://arxiv.org/abs/2510.13804">
-                    <papertitle>Generative Universal Verifier as Multimodal Meta-Reasoner</papertitle>
+                  <a href="https://arxiv.org/abs/2605.28805">
+                    <papertitle>OmniVerifier-C1: Decomposed Graded Verifier for Generative World Modeling</papertitle>
                   </a>
                   <br>
-                  <strong>Xinchen Zhang</strong>, Xiaoying Zhang, Youbin Wu, Yanbin Cao, Renrui Zhang, Ruihang Chu, Ling Yang, Yujiu Yang, Guang Shi
+                  Bowei Liu*, <strong>Xinchen Zhang*</strong>, Xuhuan Li, Kaian Jiang, Jingwei Liu, Congyang Zhao, Yifei Qian, Junhong Liu, Zhiheng Li, Tianlin Zhang, Yujiu Yang, Yang Cai, Ling Yang 
                   <br>
-                  <em><strong>ICLR, 2026 <span class="highlight-red">(Oral Paper, Top 1%)</span></strong></em> 
-                  <br>
-                  <a href="https://arxiv.org/abs/2510.13804">Preprint</a> / <a href="https://github.com/Cominclip/OmniVerifier">Code</a> / <a href="https://huggingface.co/comin/OmniVerifier-7B">Checkpoint</a> / <a href="https://huggingface.co/datasets/comin/ViVerBench">Benchmark</a>
+                  <em><strong>NeurIPS, 2026 </strong></em> 
                   <br>
                   <p></p>
                 </td>
-              </tr>
+              </tr>      
+
 
               <tr>
                 <td style="padding-left:20px;padding-right:20px;padding-top:10px;width:30%;vertical-align:top">
@@ -302,7 +320,7 @@
                   <br>
                   <em><strong>ICLR</strong> 2025</em>
                   <br>
-                  <a href="https://arxiv.org/abs/2410.07171">Preprint</a> / <a href="https://github.com/YangLing0818/IterComp">Code</a> / <a href="https://huggingface.co/comin/IterComp">Checkpoints </a><span class="highlight-red">(Over 3.3W downloads)</span>
+                  <a href="https://arxiv.org/abs/2410.07171">Preprint</a> / <a href="https://github.com/YangLing0818/IterComp">Code</a> / <a href="https://huggingface.co/comin/IterComp">Checkpoints </a><span class="highlight-red">(Over 3.5W downloads)</span>
                   <br>
                   <p></p>
                 </td>
@@ -322,6 +340,25 @@
                   <em><strong>NeurIPS</strong> 2024</em>
                   <br>
                   <a href="https://cominclip.github.io/RealCompo_Page/">Project page</a> / <a href="https://arxiv.org/abs/2402.12908">Preprint</a> / <a href="https://github.com/YangLing0818/RealCompo">Code</a>
+                  <br>
+                  <p></p>
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding-left:20px;padding-right:20px;padding-top:10px;width:30%;vertical-align:top">
+                  <img style="width:100%;max-width:100%" alt="VidForensics-M1 paper thumbnail" src="images/vidforensics-m1.png" class="hoverZoomLink" loading="lazy" decoding="async">
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:top;line-height:1.8em;padding-top:0px">
+                  <a href="https://arxiv.org/abs/2608.11201v1">
+                    <papertitle>VidForensics-M1: Meta-Detection Reinforcement Learning with Verifiable Temporal Grounding for AI-Generated Video Forensics</papertitle>
+                  </a>
+                  <br>
+                  Bowei Liu*, Zheng Lu*, Yuhan Bian*, <strong>Xinchen Zhang*</strong>, Xingming Shui, Yuesheng Huang, Xuhuan Li, Zihao Liu, Yifan Yang, Jun Zhou, Xiu Li
+                  <br>
+                  <em>Under Review</em>
+                  <br>
+                  <a href="https://arxiv.org/abs/2608.11201v1">Preprint</a> 
                   <br>
                   <p></p>
                 </td>
@@ -439,7 +476,7 @@
                   <br>
                   <strong>Xinchen Zhang</strong>, Hao Zhu, Xiaotong Li, Biao Hou, Wenhao Zhao, Xiaoyu Yi, Wenping Ma, Licheng Jiao
                   <br>
-                  <em>Pattern Recognition</em>
+                  <em><strong>Pattern Recognition</strong>, 2026</em>
                   <br>
                   <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320325009458">Paper</a> / <a href="https://github.com/Cominclip/RPF-Net">Code</a>
                 </td>
@@ -542,7 +579,7 @@
                         <li> International Conference on Computer Vision (ICCV) 2025</li>
                         <li> International Conference on Machine Learning (ICML) 2025, 2026</li>
                         <li> IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2025, 2026</li>
-                        <li> International Conference on Learning Representations (ICLR) 2025, 2026</li>
+                        <li> International Conference on Learning Representations (ICLR) 2025, 2026, 2027</li>
                         <li> Conference on Neural Information Processing Systems (NeurIPS) 2025</li>
                       </ul>
                     </li>
